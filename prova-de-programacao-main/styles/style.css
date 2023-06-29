@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff2f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  background-color: #fbff00;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+header span {
+  font-weight: bold;
+}
+
+header p {
+  font-size: 30px;
+}
+
+header ion-icon {
+  font-size: 27px;
+}
+
+.container {
+  width: 800px;
+  background-color: #ece7e7;
+  padding: 30px 15px;
+}
+
+.container h1 {
+  font-size: 33px;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 18px;
+  padding: 10px 0;
+  color: rgb(45, 45, 45);
+  text-align: justify;
+}
+
+.img-container img{
+  width: 100%;
+}
+
+.container p {
+  padding: 30px 20px;
+  text-align: justify;
+}
+
+.container .fala {
+  padding: 10px 40px;
+  font-style: italic;
+  border-left: 3px solid rgb(82, 82, 168);
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px){
+  .container {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container {
+    width: 100%;
+  }
+
+  .container h1 {
+    padding: 0 10px;
+  }
+  
+  .container h2 {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  header {
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  .container h1 {
+    font-size: 25px;
+    padding: 0 10px;
+  }
+
+  .container h2 {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .fala {
+    font-size: 14px;
+    margin: 0;
+    padding: 20px;
+  }
+}
